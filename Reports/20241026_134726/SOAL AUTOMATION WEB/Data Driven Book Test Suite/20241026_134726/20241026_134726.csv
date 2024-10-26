@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Book Test Suite,Chrome 130.0.0.0,,,26-10-2024 13:47:33,26-10-2024 13:47:57,24.352s,ERROR
+,,,,,,,
+Test Cases/SOAL AUTOMATION WEB/Login Positif,Chrome 130.0.0.0,,,26-10-2024 13:47:33,26-10-2024 13:47:56,22.607s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,26-10-2024 13:47:34,26-10-2024 13:47:37,3.114s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,26-10-2024 13:47:37,26-10-2024 13:47:51,13.947s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 130.0.0.0,,,26-10-2024 13:47:51,26-10-2024 13:47:52,1.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 130.0.0.0,,,26-10-2024 13:47:52,26-10-2024 13:47:53,0.946s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 130.0.0.0,,,26-10-2024 13:47:53,26-10-2024 13:47:54,0.787s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 130.0.0.0,,,26-10-2024 13:47:54,26-10-2024 13:47:55,1.255s,PASSED
+"boolElementExist = verifyElementVisible(findTestObject(""Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 130.0.0.0,,,26-10-2024 13:47:55,26-10-2024 13:47:55,0.380s,PASSED
+if (boolElementExist),Chrome 130.0.0.0,,,26-10-2024 13:47:55,26-10-2024 13:47:55,0.070s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,26-10-2024 13:47:55,26-10-2024 13:47:56,0.411s,PASSED
+,,,,,,,
+Test Cases/SOAL AUTOMATION WEB/Book Is Exist,Chrome 130.0.0.0,,,26-10-2024 13:47:56,26-10-2024 13:47:57,0.699s,ERROR
+webDriver = getWebDriver(),Chrome 130.0.0.0,,,26-10-2024 13:47:56,26-10-2024 13:47:56,0.036s,PASSED
+"strXpathGoToHome = ""//*/text()[normalize-space(.)='Go to Homepage']/parent::*""",Chrome 130.0.0.0,,,26-10-2024 13:47:56,26-10-2024 13:47:56,0.003s,PASSED
+intSizeGoToHome = xpath(strXpathGoToHome)).size(),Chrome 130.0.0.0,,,26-10-2024 13:47:56,26-10-2024 13:47:57,0.094s,ERROR
+,,,,,,,
+Test Cases/SOAL AUTOMATION WEB/Book Is Exist,Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.072s,ERROR
+webDriver = getWebDriver(),Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.000s,PASSED
+"strXpathGoToHome = ""//*/text()[normalize-space(.)='Go to Homepage']/parent::*""",Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.001s,PASSED
+intSizeGoToHome = xpath(strXpathGoToHome)).size(),Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.009s,ERROR
+,,,,,,,
+Test Cases/SOAL AUTOMATION WEB/Book Is Exist,Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.074s,ERROR
+webDriver = getWebDriver(),Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.001s,PASSED
+"strXpathGoToHome = ""//*/text()[normalize-space(.)='Go to Homepage']/parent::*""",Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.003s,PASSED
+intSizeGoToHome = xpath(strXpathGoToHome)).size(),Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.008s,ERROR
+,,,,,,,
+Test Cases/SOAL AUTOMATION WEB/Logout,Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.179s,FAILED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 130.0.0.0,,,26-10-2024 13:47:57,26-10-2024 13:47:57,0.064s,FAILED

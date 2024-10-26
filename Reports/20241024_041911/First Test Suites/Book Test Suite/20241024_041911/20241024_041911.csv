@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Book Test Suite,Chrome 129.0.0.0,,,24-10-2024 04:19:16,24-10-2024 04:19:42,25.319s,ERROR
+,,,,,,,
+Test Cases/First Test/Login,Chrome 129.0.0.0,,,24-10-2024 04:19:17,24-10-2024 04:19:37,19.942s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-10-2024 04:19:17,24-10-2024 04:19:30,12.489s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-10-2024 04:19:30,24-10-2024 04:19:30,0.262s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,24-10-2024 04:19:30,24-10-2024 04:19:31,1.393s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 129.0.0.0,,,24-10-2024 04:19:31,24-10-2024 04:19:33,1.502s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 129.0.0.0,,,24-10-2024 04:19:33,24-10-2024 04:19:34,0.912s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnLoginMyFirstTry""))",Chrome 129.0.0.0,,,24-10-2024 04:19:34,24-10-2024 04:19:37,2.903s,PASSED
+,,,,,,,
+Test Cases/First Test/Book,Chrome 129.0.0.0,,,24-10-2024 04:19:37,24-10-2024 04:19:38,1.885s,ERROR
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), strFacility, false)",Chrome 129.0.0.0,,,24-10-2024 04:19:37,24-10-2024 04:19:38,0.848s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 129.0.0.0,,,24-10-2024 04:19:38,24-10-2024 04:19:38,0.486s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/label_Medicaid_replace"").replace(""#"", strHealthProgram))",Chrome 129.0.0.0,,,24-10-2024 04:19:38,24-10-2024 04:19:38,0.110s,ERROR
+,,,,,,,
+Test Cases/First Test/Logout,Chrome 129.0.0.0,,,24-10-2024 04:19:38,24-10-2024 04:19:42,3.230s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 129.0.0.0,,,24-10-2024 04:19:39,24-10-2024 04:19:39,0.490s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Logout""))",Chrome 129.0.0.0,,,24-10-2024 04:19:39,24-10-2024 04:19:42,2.601s,PASSED

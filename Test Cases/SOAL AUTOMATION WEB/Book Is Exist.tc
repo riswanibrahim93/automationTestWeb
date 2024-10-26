@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book Is Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>642fbdce-595f-4707-a5e9-8d9c26b63904</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73a05a7f-028e-4a65-aa9d-719ee2d2d9bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1dde99de-baf9-4ffa-bf6d-303edd62c2e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20bd8d90-594f-4cdd-aa3a-d7ed85ab3540</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7497d16a-8f7d-42d8-b84a-93aa14f5aa23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>73a05a7f-028e-4a65-aa9d-719ee2d2d9bf</id>
+      <masked>false</masked>
+      <name>strFacility</name>
+   </variable>
+   <variable>
+      <defaultValue>'None'</defaultValue>
+      <description></description>
+      <id>1dde99de-baf9-4ffa-bf6d-303edd62c2e1</id>
+      <masked>false</masked>
+      <name>strHealthProgram</name>
+   </variable>
+   <variable>
+      <defaultValue>'30/10/2024'</defaultValue>
+      <description></description>
+      <id>20bd8d90-594f-4cdd-aa3a-d7ed85ab3540</id>
+      <masked>false</masked>
+      <name>strVisitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Automation'</defaultValue>
+      <description></description>
+      <id>7497d16a-8f7d-42d8-b84a-93aa14f5aa23</id>
+      <masked>false</masked>
+      <name>strComment</name>
+   </variable>
+</TestCaseEntity>

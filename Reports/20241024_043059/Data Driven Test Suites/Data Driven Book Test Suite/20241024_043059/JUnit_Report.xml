@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Book Test Suite" time="40.402" tests="3" failures="0" errors="1">
+   <testsuite name="Data Driven Book Test Suite" tests="3" failures="0" errors="1" time="40.402" skipped="0" timestamp="24-10-2024T04:31:04" hostname="Ukhty - DESKTOP-IENTL1E" id="Test Suites/Data Driven Test Suites/Data Driven Book Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Ukhty\\git\\simpleKatalonTester\\Reports\\20241024_043059\\Data Driven Test Suites\\Data Driven Book Test Suite\\20241024_043059"/>
+         <property name="logFiles" value="C:\\Users\\Ukhty\\git\\simpleKatalonTester\\Reports\\20241024_043059\\Data Driven Test Suites\\Data Driven Book Test Suite\\20241024_043059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ukhty - DESKTOP-IENTL1E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="50.50.51.36"/>
+         <property name="sessionId" value="43cda65e1cbd56c214aea700910cd5d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/First Test/Login" time="33.193" classname="Test Cases/First Test/Login" status="PASSED">
+         <system-out><![CDATA[24-10-2024T04:31:04 - [TEST_CASE][PASSED] - Test Cases/First Test/Login: Test Cases/First Test/Login
+
+24-10-2024T04:31:05 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T04:31:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T04:31:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T04:31:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T04:31:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-10-2024T04:31:33 - [MESSAGE][PASSED] - Current window maximized
+
+24-10-2024T04:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T04:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T04:31:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T04:31:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T04:31:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T04:31:36 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T04:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLoginMyFirstTry")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on
+
+24-10-2024T04:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First Test/Book" time="1.809" classname="Test Cases/First Test/Book" status="ERROR">
+         <error type="ERROR" message="Test Cases/First Test/Book FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]&#xa;Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()&#xa;	at Book.run(Book:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[24-10-2024T04:31:38 - [TEST_CASE][ERROR] - Test Cases/First Test/Book: Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-10-2024T04:31:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), strFacility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center' 
+
+24-10-2024T04:31:39 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center' 
+
+24-10-2024T04:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+24-10-2024T04:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+24-10-2024T04:31:39 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+24-10-2024T04:31:40 - [TEST_STEP][PASSED] - strXpathHealthProgram = "//label[normalize-space()='#']": null
+
+24-10-2024T04:31:40 - [TEST_STEP][ERROR] - eleHealthProgram = webDriver.findElement(By.Xpath(strXpathHealthProgram.replace("#", strHealthProgram))): Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-10-2024T04:31:40 - [MESSAGE][ERROR] - Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[24-10-2024T04:31:38 - [TEST_CASE][ERROR] - Test Cases/First Test/Book: Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First Test/Logout" time="4.925" classname="Test Cases/First Test/Logout" status="PASSED">
+         <system-out><![CDATA[24-10-2024T04:31:40 - [TEST_CASE][PASSED] - Test Cases/First Test/Logout: Test Cases/First Test/Logout
+
+24-10-2024T04:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+24-10-2024T04:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+24-10-2024T04:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+24-10-2024T04:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-10-2024T04:31:04 - [TEST_SUITE][ERROR] - Data Driven Book Test Suite: Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[24-10-2024T04:31:04 - [TEST_SUITE][ERROR] - Data Driven Book Test Suite: Test Cases/First Test/Book FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static org.openqa.selenium.By.Xpath() is applicable for argument types: (String) values: [//label[normalize-space()='Medicare']]
+Possible solutions: xpath(java.lang.String), name(java.lang.String), with(groovy.lang.Closure), getAt(java.lang.String), each(groovy.lang.Closure), wait()
+	at Book.run(Book:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729719059135.run(TempTestSuite1729719059135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

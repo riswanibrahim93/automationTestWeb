@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42234f0b-06e7-4cfa-8683-95852deeb643</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5cd1acf-7e0d-48ad-a046-50e67c72bd4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>799f7f94-a469-4367-b4ef-c9c6904dad38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>b5cd1acf-7e0d-48ad-a046-50e67c72bd4c</id>
+      <masked>false</masked>
+      <name>strUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'aaa'</defaultValue>
+      <description></description>
+      <id>799f7f94-a469-4367-b4ef-c9c6904dad38</id>
+      <masked>false</masked>
+      <name>strPassword</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Book Test Suite,Chrome 129.0.0.0,,,24-10-2024 04:31:04,24-10-2024 04:31:45,40.402s,ERROR
+,,,,,,,
+Test Cases/First Test/Login,Chrome 129.0.0.0,,,24-10-2024 04:31:04,24-10-2024 04:31:38,33.193s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-10-2024 04:31:05,24-10-2024 04:31:33,27.601s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-10-2024 04:31:33,24-10-2024 04:31:33,0.238s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,24-10-2024 04:31:33,24-10-2024 04:31:34,1.710s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 129.0.0.0,,,24-10-2024 04:31:34,24-10-2024 04:31:36,1.047s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 129.0.0.0,,,24-10-2024 04:31:36,24-10-2024 04:31:36,0.840s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnLoginMyFirstTry""))",Chrome 129.0.0.0,,,24-10-2024 04:31:36,24-10-2024 04:31:38,1.287s,PASSED
+,,,,,,,
+Test Cases/First Test/Book,Chrome 129.0.0.0,,,24-10-2024 04:31:38,24-10-2024 04:31:40,1.809s,ERROR
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), strFacility, false)",Chrome 129.0.0.0,,,24-10-2024 04:31:38,24-10-2024 04:31:39,0.764s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 129.0.0.0,,,24-10-2024 04:31:39,24-10-2024 04:31:39,0.503s,PASSED
+webDriver = getWebDriver(),Chrome 129.0.0.0,,,24-10-2024 04:31:39,24-10-2024 04:31:40,0.050s,PASSED
+"strXpathHealthProgram = ""//label[normalize-space()='#']""",Chrome 129.0.0.0,,,24-10-2024 04:31:40,24-10-2024 04:31:40,0.007s,PASSED
+"eleHealthProgram = webDriver.findElement(By.Xpath(strXpathHealthProgram.replace(""#"", strHealthProgram)))",Chrome 129.0.0.0,,,24-10-2024 04:31:40,24-10-2024 04:31:40,0.083s,ERROR
+,,,,,,,
+Test Cases/First Test/Logout,Chrome 129.0.0.0,,,24-10-2024 04:31:40,24-10-2024 04:31:45,4.925s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 129.0.0.0,,,24-10-2024 04:31:40,24-10-2024 04:31:40,0.464s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Logout""))",Chrome 129.0.0.0,,,24-10-2024 04:31:40,24-10-2024 04:31:45,4.321s,PASSED

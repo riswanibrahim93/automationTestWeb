@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Test Suite" time="44.986" tests="3" failures="0" errors="0">
+   <testsuite name="Data Driven Test Suite" tests="3" failures="0" errors="0" time="44.986" skipped="0" timestamp="24-10-2024T03:40:23" hostname="Ukhty - DESKTOP-IENTL1E" id="Test Suites/Data Driven Test Suites/Data Driven Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Ukhty\\git\\simpleKatalonTester\\Reports\\20241024_034018\\Data Driven Test Suites\\Data Driven Test Suite\\20241024_034018"/>
+         <property name="logFiles" value="C:\\Users\\Ukhty\\git\\simpleKatalonTester\\Reports\\20241024_034018\\Data Driven Test Suites\\Data Driven Test Suite\\20241024_034018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ukhty - DESKTOP-IENTL1E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="50.50.51.36"/>
+         <property name="sessionId" value="17332029f727742aaa5cffc1eb013a04"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/First Test/Login" time="12.953" classname="Test Cases/First Test/Login" status="PASSED">
+         <system-out><![CDATA[24-10-2024T03:40:23 - [TEST_CASE][PASSED] - Test Cases/First Test/Login: Test Cases/First Test/Login
+
+24-10-2024T03:40:24 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T03:40:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T03:40:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:40:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-10-2024T03:40:30 - [MESSAGE][PASSED] - Current window maximized
+
+24-10-2024T03:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:40:33 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:40:34 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLoginMyFirstTry")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on
+
+24-10-2024T03:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First Test/Login" time="15.896" classname="Test Cases/First Test/Login" status="PASSED">
+         <system-out><![CDATA[24-10-2024T03:40:37 - [TEST_CASE][PASSED] - Test Cases/First Test/Login: Test Cases/First Test/Login
+
+24-10-2024T03:40:37 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:40:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-10-2024T03:40:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T03:40:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T03:40:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:40:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-10-2024T03:40:48 - [MESSAGE][PASSED] - Current window maximized
+
+24-10-2024T03:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:40:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), Username): Text 'Riswan' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:40:50 - [MESSAGE][PASSED] - Text 'Riswan' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:40:51 - [MESSAGE][PASSED] - Text 'ThisIsAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLoginMyFirstTry")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on
+
+24-10-2024T03:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First Test/Login" time="15.707" classname="Test Cases/First Test/Login" status="PASSED">
+         <system-out><![CDATA[24-10-2024T03:40:52 - [TEST_CASE][PASSED] - Test Cases/First Test/Login: Test Cases/First Test/Login
+
+24-10-2024T03:40:52 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:40:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-10-2024T03:40:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-10-2024T03:40:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2024T03:41:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-10-2024T03:41:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-10-2024T03:41:03 - [MESSAGE][PASSED] - Current window maximized
+
+24-10-2024T03:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-10-2024T03:41:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), Username): Text 'Ibrahim' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:41:06 - [MESSAGE][PASSED] - Text 'Ibrahim' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-10-2024T03:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), Password): Text 'NotPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:41:07 - [MESSAGE][PASSED] - Text 'NotPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-10-2024T03:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLoginMyFirstTry")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on
+
+24-10-2024T03:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLoginMyFirstTry' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-10-2024T03:40:23 - [TEST_SUITE][PASSED] - Data Driven Test Suite: Test Cases/First Test/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
